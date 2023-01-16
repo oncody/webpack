@@ -6,7 +6,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-export default class ProdConfig {
+class ProdConfig {
     /**
      * @returns {ProdConfig}
      */
@@ -33,4 +33,6 @@ export default class ProdConfig {
             },
         }
     }
-};
+}
+
+export {ProdConfig}

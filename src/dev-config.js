@@ -2,7 +2,7 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
-export default class DevConfig {
+class DevConfig {
     /**
      * @returns DevConfig
      */
@@ -22,4 +22,6 @@ export default class DevConfig {
             ]
         }
     }
-};
+}
+
+export {DevConfig}
